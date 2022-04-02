@@ -73,5 +73,5 @@ refer to the .R file
     - Starting from April, riders tend to rise gradually with August being of the highest riders, so new marketing campaigns, like cycling race, should be       held before August to attract more customers, which in turn offer more chances to convert casual riders into annual members.
 
 - How can Cyclistic use digital media to influence casual riders to become members?
-    - To enhance brand awareness, which can turn casual riders into members, the company can use social media to target specific audiene, depending on           their interests, which would make the organizatin more easier to tailor-make the ads for the causal riders. 
+    - To enhance brand awareness, which can turn casual riders into members, the company can use social media to target specific audiene, depending on           their interests, which would make the organizatin more easier to tailor-make the ads for the casual riders. 
     - Membership referral program should be used. Social media would make it easier for the current members to participate in such promotion plan.
