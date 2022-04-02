@@ -1,5 +1,5 @@
 # Google_Data_Analytics_Capstone
-Data Analysis Process on Cyclistic bike-share company using R, capstone project from Google Data Analytics Professional Certification.
+Data Analysis Process on Cyclistic bike-share company, using R, the capstone project from Google Data Analytics Professional Certification.
 
 # Step 1. Ask
 ### Background
