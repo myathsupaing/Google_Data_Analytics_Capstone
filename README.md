@@ -57,7 +57,7 @@ refer to the .R file
 refer to the .R file
 
 # Step 5. Share
-refer to the .R file
+refer to the .R file and on tableau, https://public.tableau.com/app/profile/myat.hsu.paing/viz/CyclisticBike-share_16489209682940/Dashboard
 
 # Step 6. Act
 - How do annual members and casual riders use Cyclistic bikes differently?
