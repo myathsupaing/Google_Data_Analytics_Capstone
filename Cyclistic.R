@@ -1,3 +1,4 @@
+# Step 4. Process
 # install packages and loading library
 install.packages("tidyverse")
 library(tidyverse)
@@ -147,7 +148,8 @@ all_trips_v3 <- all_trips_v3 %>% relocate(member_casual, .after = ride_id)
 all_trips_v3 <- all_trips_v3 %>% relocate(ride_length, .after = ended_at)
 head(all_trips_v3)
 
-##statistical summary
+# Step 5. Analyze
+# Statistical summary
 install.packages("skimr")
 library(skimr)
 skim(all_trips_v3)
@@ -191,8 +193,8 @@ all_trips_v3 %>%
   ) %>%
   arrange(desc(total_trips))
 
-##DATA VISUTALIZATION
-# (1) ~Trip Count by Day and Rider Type 
+# Step 6. Share
+# Trip Count by Day and Rider Type 
 all_trips_v3 %>% 
   group_by(member_casual, weekday) %>% 
   summarise(number_of_rides = n(), .groups = "drop")%>% 
@@ -204,7 +206,7 @@ all_trips_v3 %>%
   labs(title = "1. Trip Count by Day and Rider Type",
        x = "Weekday", y = "Trip Count", fill = "Rider Type")
 
-# ~Average Trip Duration by Day and Rider Type (already in mins)
+# Average Trip Duration by Day and Rider Type (already in mins)
 all_trips_v3 %>% 
   group_by(member_casual, weekday) %>% 
   summarise(average_duration_min = mean(ride_length), .groups = "drop") %>% 
@@ -215,7 +217,7 @@ all_trips_v3 %>%
   labs(title = "2. Average Trip Duration by Day and Rider Type",
        x = "Weekday", y = "Average Trip Duration (min)", fill = "Rider Type")
 
-## Average Trip Duration by Month and Rider Type (line graph)
+# Average Trip Duration by Month and Rider Type (line graph)
 all_trips_v2 %>% 
   group_by(member_casual, month) %>% 
   summarise(average_duration_min = mean(ride_length), .groups = "drop") %>% 
@@ -251,7 +253,7 @@ all_trips_v2 %>%
   labs(title = "5. Trip Count by Time of Day and Rider Type", x = "Hour", 
        y = "Trip Count", color = "Rider Type")
 
-##Export summary file for further analysis
+# Export summary file for further analysis
 counts <- aggregate(all_trips_v3$ride_length ~ all_trips_v3$member_casual + all_trips_v3$weekday, FUN = mean)
 write.csv(counts, file = '~/Desktop/Cyclistic/avg_ride_length.csv')
 
