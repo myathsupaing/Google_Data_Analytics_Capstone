@@ -252,7 +252,6 @@ all_trips_v2 %>%
        y = "Trip Count", color = "Rider Type")
 
 ##Export summary file for further analysis
-
 counts <- aggregate(all_trips_v3$ride_length ~ all_trips_v3$member_casual + all_trips_v3$weekday, FUN = mean)
 write.csv(counts, file = '~/Desktop/Cyclistic/avg_ride_length.csv')
 
