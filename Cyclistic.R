@@ -184,6 +184,7 @@ all_trips_v3 %>%
     total_trips = n(),
   ) %>%
   arrange(desc(total_trips))
+#The start stations with highest casual riders are Streeter Dr & Grand Ave.
 
 all_trips_v3 %>%
   group_by(member_casual, end_station_name) %>%
@@ -192,6 +193,7 @@ all_trips_v3 %>%
     total_trips = n(),
   ) %>%
   arrange(desc(total_trips))
+#The end stations with highest casual riders are Streeter Dr & Grand Ave.
 
 # Step 6. Share
 # Trip Count by Day and Rider Type 
