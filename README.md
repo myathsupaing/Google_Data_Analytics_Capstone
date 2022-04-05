@@ -33,7 +33,7 @@ Consumer segments: casual riders (comprising 70% of sales), and annual membershi
 
 # Step 2. Prepare
 ### Data Sources
-12-month Cyclistic trip data, provided by Divvy (https://divvy-tripdata.s3.amazonaws.com/index.html, which is a public dataset provided by Motivate International Inc.)
+[12-month Cyclistic trip data](https://divvy-tripdata.s3.amazonaws.com/index.html) provided by Divvy, an open dataset from Motivate International Inc.
 
 ### How data was collected
 Data was collected, subject to the terms and conditions of [this License Agreement](https://ride.divvybikes.com/data-license-agreement)
