@@ -36,7 +36,7 @@ Consumer segments: casual riders (comprising 70% of sales), and annual membershi
 12-month Cyclistic trip data, provided by Divvy (https://divvy-tripdata.s3.amazonaws.com/index.html, which is a public dataset provided by Motivate International Inc.)
 
 ### How data was collected
-Data was collected, subject to the terms and conditions of this License Agreement, https://ride.divvybikes.com/data-license-agreement
+Data was collected, subject to the terms and conditions of <this License Agreement>, (https://ride.divvybikes.com/data-license-agreement>
 
 ### Data Ethics
 No violation of data ethics: open data (free access, usage and sharing of data), removing personally identifiable information (data anonymization)
