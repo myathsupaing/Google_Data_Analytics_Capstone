@@ -36,7 +36,7 @@ Consumer segments: casual riders (comprising 70% of sales), and annual membershi
 12-month Cyclistic trip data, provided by Divvy (https://divvy-tripdata.s3.amazonaws.com/index.html, which is a public dataset provided by Motivate International Inc.)
 
 ### How data was collected
-Data was collected, subject to the terms and conditions of [this License Agreement (https://ride.divvybikes.com/data-license-agreement) ]
+Data was collected, subject to the terms and conditions of [this License Agreement](https://ride.divvybikes.com/data-license-agreement)
 
 ### Data Ethics
 No violation of data ethics: open data (free access, usage and sharing of data), removing personally identifiable information (data anonymization)
@@ -51,13 +51,13 @@ Current: Not relevant because the data used was collected in 2019 and 2020
 R programming was used to analyze the data
 
 # Step 3. Process
-refer to the .R file
+refer to the [.R file](https://github.com/myathsupaing/Google_Data_Analytics_Capstone/blob/main/Cyclistic.R)
 
 # Step 4. Analyze
-refer to the .R file
+refer to the [.R file](https://github.com/myathsupaing/Google_Data_Analytics_Capstone/blob/main/Cyclistic.R)
 
 # Step 5. Share
-refer to the .R file and on tableau, https://public.tableau.com/app/profile/myat.hsu.paing/viz/CyclisticBike-share_16489209682940/Dashboard
+refer to the [.R file](https://github.com/myathsupaing/Google_Data_Analytics_Capstone/blob/main/Cyclistic.R) and [here](https://public.tableau.com/app/profile/myat.hsu.paing/viz/CyclisticBike-share_16489209682940/Dashboard) on tableau
 
 # Step 6. Act
 - How do annual members and casual riders use Cyclistic bikes differently?
